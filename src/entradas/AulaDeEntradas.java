@@ -1,8 +1,8 @@
-package variaveis;
+package entradas;
 
 import java.util.Scanner;
 
-public class AulaDeInOut {
+public class AulaDeEntradas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class AulaDeInOut {
 
         System.out.printf("%s, digite sua idade: %n",nomeDoUsuario);
         int idadeDoUsuario = scanner.nextInt();
-
+        
         System.out.printf("Obrigada pelas informações!%n%s, você nasceu em %s, há %d anos.", nomeDoUsuario,cidade,idadeDoUsuario);
 
 
